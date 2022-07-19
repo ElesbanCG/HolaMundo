@@ -1,0 +1,16 @@
+/*body {
+  background-color: azure;
+  color: crimson;
+}*/
+
+body {
+  background-color: azure;
+}
+ 
+#parrafo { /*ID*/
+  color: blue;
+}
+
+.span { /*Class*/
+  color: red;
+}
