@@ -1,0 +1,83 @@
+/*Links Parte 1*/
+
+body {
+  background-color: azure;
+}
+
+a {
+  color: hotpink;
+  text-decoration: none;
+  background-color: orange; /*Links Parte 2*/
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+  border: solid 1px orangered;
+}
+
+a:link {
+  /*Cuando no  a sido Visitado*/
+  color: pink;
+}
+
+a:visited {
+  /* Visitado*/
+  color: blue;
+}
+
+a:hover {
+  /*Al pasar con el  Mouse*/
+  color: green;
+  text-decoration: underline;
+  background-color: yellow; /*Links Parte 2*/
+}
+
+a:active {
+  /*Al dar clic Mouse*/
+  color: red;
+}
+
+/*Listas*/
+  /*Padre e Hijo*/
+
+/*
+
+ul li {
+  list-style-type:lower-alpha;
+}
+*/
+ul{ /*Estilos a Lista*/
+  background-color: white;
+  border: solid 1px gray;
+  border-radius: 4px;
+  list-style: none;
+  padding-left: 0px ;
+}
+
+
+
+/*Tablas*/
+
+table{
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.89);
+  border-collapse: collapse; /*O px espacios Bordes*/
+}
+
+tr:nth-child(even){ /*Fila Par*/
+  background-color: rgb(201, 150, 248);
+}
+
+td{
+  border: 1px solid black;
+  padding: 8px;
+}
+
+table th{
+background-color: orange;
+color: white;
+text-align: left;
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 12px;
+padding-bottom: 12px;
+}
